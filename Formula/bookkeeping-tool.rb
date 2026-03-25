@@ -4,7 +4,7 @@ class BookkeepingTool < Formula
   desc "Local bookkeeping data import and normalization tool"
   homepage "https://github.com/lastarla/bookkeeping-tool"
   url "https://github.com/lastarla/bookkeeping-tool/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "REPLACE_WITH_RELEASE_SHA256"
+  sha256 "b00dcc50495c5d0b1b78f37941d5cfe50c44f60c47efe228bc34b99ce02af56f"
   license "MIT"
 
   depends_on "python@3.12"
