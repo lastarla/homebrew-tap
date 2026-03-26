@@ -11,33 +11,48 @@ class BookkeepingTool < Formula
 
   # BEGIN PYTHON RESOURCES
   resource "annotated-doc" do
-    url "https://files.pythonhosted.org/packages/04/48/d45d414b8228325051b0a1aa66b57f2e047deecc2e64150b5f837da49308/annotated_doc-0.0.3.tar.gz"
-    sha256 "10b9f07caba5f43f5ce8612ba1136894db8b9ff4fe47ff0385c532e3121f0443"
+    url "https://files.pythonhosted.org/packages/57/ba/046ceea27344560984e26a590f90bc7f4a75b06701f653222458922b558c/annotated_doc-0.0.4.tar.gz"
+    sha256 "fbcda96e87e9c92ad167c2e53839e57503ecfda18804ea28102353485033faa4"
   end
 
   resource "annotated-types" do
-    url "https://files.pythonhosted.org/packages/ee/67/531ea369d99b86288c0227250c6d8c24f3d34f58f896a50cb78c0d6fef09/annotated_types-0.7.0.tar.gz"
-    sha256 "aff07c09a53a08bc31891d0d81e2dbab788e42c97d8e2db06c6fdbf1437d40fa"
+    url "https://files.pythonhosted.org/packages/ee/67/531ea369ba64dcff5ec9c3402f9f51bf748cec26dde048a2f973a4eea7f5/annotated_types-0.7.0.tar.gz"
+    sha256 "aff07c09a53a08bc8cfccb9c85b05f1aa9a2a6f23728d790723543408344ce89"
   end
 
   resource "anyio" do
-    url "https://files.pythonhosted.org/packages/15/b3/9b1a8074496371342ec1e796a96f99c82c945a339cd81a8e73de28b4cf9e/anyio-4.11.0.tar.gz"
-    sha256 "82a8d0b81e318cc5ce71a5f1f8b5c4e63619620b63141ef8c995fa0db95a57c4"
-  end
-
-  resource "certifi" do
-    url "https://files.pythonhosted.org/packages/4c/5b/b6ce21586237c77ce67d01dc5507039d444b630dd76611bbca2d8e5dcd91/certifi-2025.10.5.tar.gz"
-    sha256 "47c09d31ccf2acf0be3f701ea53595ee7e0b8fa08801c6624be771df09ae7b43"
+    url "https://files.pythonhosted.org/packages/96/f0/5eb65b2bb0d09ac6776f2eb54adee6abe8228ea05b20a5ad0e4945de8aac/anyio-4.12.1.tar.gz"
+    sha256 "41cfcc3a4c85d3f05c932da7c26d0201ac36f72abd4435ba90d0464a3ffed703"
   end
 
   resource "click" do
-    url "https://files.pythonhosted.org/packages/80/66/377032e78f7ede1a337a3736028d6a2ca7f704b6980c159ddca750886ce4/click-8.3.0.tar.gz"
-    sha256 "9b9f285302c6e3064f4330c05f05b81945b2a39544279343e6e7c5f27a9baddc"
+    url "https://files.pythonhosted.org/packages/b9/2e/0090cbf739cee7d23781ad4b89a9894a41538e4fcf4c31dcdd705b78eb8b/click-8.1.8.tar.gz"
+    sha256 "ed53c9d8990d83c2a27deae68e4ee337473f6330c040a31d4225c9574d16096a"
+  end
+
+  resource "et-xmlfile" do
+    url "https://files.pythonhosted.org/packages/d3/38/af70d7ab1ae9d4da450eeec1fa3918940a5fafb9055e934af8d6eb0c2313/et_xmlfile-2.0.0.tar.gz"
+    sha256 "dab3f4764309081ce75662649be815c4c9081e88f0837825f90fd28317d4da54"
+  end
+
+  resource "exceptiongroup" do
+    url "https://files.pythonhosted.org/packages/01/9a/c23ad0457c63eeb039b7f92896ba9dbdfffe030e4e9cdc2dcce96c273ea3/exceptiongroup-1.3.1.tar.gz"
+    sha256 "8c9c2c14c62007d4d37e540b57285455409f95f7281f9b66c8dd876f84fcdbdb"
   end
 
   resource "fastapi" do
-    url "https://files.pythonhosted.org/packages/2f/68/d80347fe236044ecc1673355e5ab6f46ddbd3311f7a9fb53ed661a1754ce/fastapi-0.119.0.tar.gz"
-    sha256 "a4e85f6bf0014943cfaec08238b7b8135fca3983f95ffd08a2e6f0f95f0c067a"
+    url "https://files.pythonhosted.org/packages/9f/37/37b07e276f8923c69a5df266bfcb5bac4ba8b55dfe4a126720f8c48681d1/fastapi-0.128.8.tar.gz"
+    sha256 "a7594ca9bcf32d094d7ac270ba55e0311295c4fd61ebcafd0ac37c2f3690db14"
+  end
+
+  resource "h11" do
+    url "https://files.pythonhosted.org/packages/01/ee/02a2c011bdab74c6fb3c75474d40b3052059d95df7e73351460c8588d963/h11-0.16.0.tar.gz"
+    sha256 "4e35b956cf45792e4caa5885e69fba00bdbc6ffafbfa020300e549b208ee5ff1"
+  end
+
+  resource "httptools" do
+    url "https://files.pythonhosted.org/packages/b5/46/120a669232c7bdedb9d52d4aeae7e6c7dfe151e99dc70802e2fc7a5e1993/httptools-0.7.1.tar.gz"
+    sha256 "abd72556974f8e7c74a259655924a717a2365b236c882c3f6f8a45fe94703ac9"
   end
 
   resource "idna" do
@@ -45,19 +60,24 @@ class BookkeepingTool < Formula
     sha256 "795dafcc9c04ed0c1fb032c2aa73654d8e8c5023a7df64a53f39190ada629902"
   end
 
+  resource "markdown-it-py" do
+    url "https://files.pythonhosted.org/packages/94/54/e7d793b573f298e1c9013b8c4dade17d481164aa517d1d7148619c2cedbf/markdown_it_py-3.0.0.tar.gz"
+    sha256 "055216f6dc62fbec4f41b10020f5af534f0f07e6656dace3f0620ecb60e8ed92"
+  end
+
+  resource "mdurl" do
+    url "https://files.pythonhosted.org/packages/d6/54/cfe61301667036ec958cb99bd3efefba235e65cdeb9c84d24a8293ba1d90/mdurl-0.1.2.tar.gz"
+    sha256 "bb413d29f5eea38f31dd4754dd7377d4465116fb207585f97bf925588687c1ba"
+  end
+
   resource "numpy" do
-    url "https://files.pythonhosted.org/packages/b5/f4/098d2270d52b41f1bd7db9fc288aaa0400cb48c2a3e2af6fa365d9720947/numpy-2.3.3.tar.gz"
-    sha256 "74ae7b798248fe62021dbf3c914245ad45d1a6b0cb4a29ecb4b31d0bfbc4cc3e"
+    url "https://files.pythonhosted.org/packages/47/95/7db5d64a0d98d9492ff5374408b130701a2d53d0da0af4132ae70d0f2ca8/numpy-2.0.2.tar.gz"
+    sha256 "2947e2f546a53e7202331c38b34e5ef95fcce3db6a9c84d8a67c30181266eb1e"
   end
 
   resource "openpyxl" do
-    url "https://files.pythonhosted.org/packages/95/8b/2ec0d90f4d7eb716537d87acc3206b74f9e6625ca2d53b5220ab9d0f26ae/openpyxl-3.1.5.tar.gz"
-    sha256 "bc074f388a63b9e31a31a4a3e1a35446cfea921c8f2f9e18ddf5d73375a24fd0"
-  end
-
-  resource "packaging" do
-    url "https://files.pythonhosted.org/packages/a1/d4/1fc4078c65507b51b96ca8f8c3ba19e6a61c8253c72794544580a7b6c24d/packaging-25.0.tar.gz"
-    sha256 "d443872c98d677bf60f6a1f2f8c1cb748e8fe762d2bf9d3148b5599295b0fc4f"
+    url "https://files.pythonhosted.org/packages/3d/f9/88d94a75de065ea32619465d2f77b29a0469500e99012523b91cc4141cd1/openpyxl-3.1.5.tar.gz"
+    sha256 "cf0e3cf56142039133628b5acffe8ef0c12bc902d2aadd3e0fe5878dc08d1050"
   end
 
   resource "pandas" do
@@ -66,18 +86,28 @@ class BookkeepingTool < Formula
   end
 
   resource "pydantic" do
-    url "https://files.pythonhosted.org/packages/58/26/82663c79010b28eddf29dcdd0ea723439535fa917fce5905885c0e9ba562/pydantic-2.12.0.tar.gz"
-    sha256 "f33683f4048e79d09a76e74a91fa9e53c9ab58eb5a2e9bf4c8f62e4dcca65951"
+    url "https://files.pythonhosted.org/packages/69/44/36f1a6e523abc58ae5f928898e4aca2e0ea509b5aa6f6f392a5d882be928/pydantic-2.12.5.tar.gz"
+    sha256 "4d351024c75c0f085a9febbb665ce8c0c6ec5d30e903bdb6394b7ede26aebb49"
   end
 
   resource "pydantic-core" do
-    url "https://files.pythonhosted.org/packages/6a/c0/ec2b1c8712ca690e5d61979dee872603e92b8a32f94cc1b72d53beab008a/pydantic_core-2.37.4.tar.gz"
-    sha256 "05e1eece12d4dd9a91c1d4c0f7e4a8d8cfbded877246f3e3cb54e92d8fdb4f62"
+    url "https://files.pythonhosted.org/packages/71/70/23b021c950c2addd24ec408e9ab05d59b035b39d97cdc1130e1bce647bb6/pydantic_core-2.41.5.tar.gz"
+    sha256 "08daa51ea16ad373ffd5e7606252cc32f07bc72b28284b6bc9c6df804816476e"
+  end
+
+  resource "pygments" do
+    url "https://files.pythonhosted.org/packages/b0/77/a5b8c569bf593b0140bde72ea885a803b82086995367bf2037de0159d924/pygments-2.19.2.tar.gz"
+    sha256 "636cb2477cec7f8952536970bc533bc43743542f70392ae026374600add5b887"
   end
 
   resource "python-dateutil" do
     url "https://files.pythonhosted.org/packages/8c/4b/6b6a0a7f2f72f56e68f15ef87c7f804c1c451d826924a9d67df4a2674380/python_dateutil-2.9.0.post0.tar.gz"
     sha256 "37dd54208da7e0c5c28d5f1c4c2f9b8f2f6d0f4f7ad0ec4f4d4f8f76f4a7d5ce"
+  end
+
+  resource "python-dotenv" do
+    url "https://files.pythonhosted.org/packages/44/0c/7e1337f11ffec5e942ecf94f3e6dbe10a52eed0986442a4e7afd4b06c267/python_dotenv-1.2.1.tar.gz"
+    sha256 "8a5eb9f56383f1d7a4c95e5c6f5a8127f18b43524832f570510bcffb4eccf96f"
   end
 
   resource "python-multipart" do
@@ -86,18 +116,23 @@ class BookkeepingTool < Formula
   end
 
   resource "pytz" do
-    url "https://files.pythonhosted.org/packages/5f/57/df1c915e18e4dff8fcd3f1178a9d7e18c867fe15083c64484d7fe4e8fbc3/pytz-2025.2.tar.gz"
-    sha256 "5ddf76296dd8c44c26eb8f4b6f35488f3ccbf6fbbd7adee0b7262d43f0ec2f00"
+    url "https://files.pythonhosted.org/packages/5f/57/df1c915e18e4dff8fcd3f1178a9d7e18c867fe15083c64484d7fe4e8fbc3/pytz-2026.1.post1.tar.gz"
+    sha256 "360b9e3dbb49a209c21ad61809c7fb453643e048b38924c765813546746e81c7"
+  end
+
+  resource "pyyaml" do
+    url "https://files.pythonhosted.org/packages/05/8e/961c0007c59b8dd7729d542c61a4d537767a59645b82a0b521206e1e25c2/pyyaml-6.0.3.tar.gz"
+    sha256 "d76623373421df22fb4cf8817020cbb7ef15c725b9d5e45f17e189bfc384190f"
   end
 
   resource "rich" do
-    url "https://files.pythonhosted.org/packages/25/7a/b0178788f8dc6cafce37a212c99565fa1fe7872c70c6c9c1e1a372d9d88f/rich-14.1.0.tar.gz"
-    sha256 "1c8d3ac8c4ad7bb1f42c1dc2b500d30f6b2f7c0f32b5e1f3b2efda58d7f6b3ac"
+    url "https://files.pythonhosted.org/packages/b3/c6/f3b320c27991c46f43ee9d856302c70dc2d0fb2dba4842ff739d5f46b393/rich-14.3.3.tar.gz"
+    sha256 "b8daa0b9e4eef54dd8cf7c86c03713f53241884e814f4e2f5fb342fe520f639b"
   end
 
   resource "shellingham" do
-    url "https://files.pythonhosted.org/packages/e0/f9/0592336913f1340b5baf07eebcdf474868a75d867a5f6bcf4f7653d718bc/shellingham-1.5.4.tar.gz"
-    sha256 "7ecfff8e313c0010fe9c1df7fdbcb8fd2b32ef4c7f819db47b2dd44c3fbc9d0d"
+    url "https://files.pythonhosted.org/packages/58/15/8b3609fd3830ef7b27b655beb4b4e9c62313a4e8da8c676e142cc210d58e/shellingham-1.5.4.tar.gz"
+    sha256 "8dbca0739d487e5bd35ab3ca4b36e11c4078f3a234bfce294b0a0291363404de"
   end
 
   resource "six" do
@@ -105,19 +140,14 @@ class BookkeepingTool < Formula
     sha256 "ff70335d468e7eb6ec65b95b99d3a2836546063f63acc5171de367e834932a81"
   end
 
-  resource "sniffio" do
-    url "https://files.pythonhosted.org/packages/07/24/73031e6bd25d8f94811b3752b0b217efbdb20a67b65c6838c9af4e50c2e2/sniffio-1.3.1.tar.gz"
-    sha256 "2f6da418f35d5c5b36f33d6c516fb35f9f8176bfe6a8b1f17a4990f6e5e3f46f"
-  end
-
   resource "starlette" do
-    url "https://files.pythonhosted.org/packages/0a/80/2f0cf0e125b31d5536f4d3fd06c437b13a12d4ff4389551a1298bf1b28ca/starlette-0.48.0.tar.gz"
-    sha256 "bc17f3552e8f6b8ee26ed8e5d6ddbfde8ef0b01b8e193a54357df2d565bc7e29"
+    url "https://files.pythonhosted.org/packages/7e/9b/6ef84f0f911e15a00eb20f70ecbe8a7b205d5055c8ec0c88e0d210c442a3/starlette-0.49.3.tar.gz"
+    sha256 "f35882733fb81bdd3765f74d84f1f2cae4890c4c1d15873bcec184b975677ca3"
   end
 
   resource "typer" do
-    url "https://files.pythonhosted.org/packages/00/22/35617eee79080a5d071d0f14ad698d325ee6b3bf824fc0467c03b30e7fa8/typer-0.19.2.tar.gz"
-    sha256 "26432732337de6fd10b3ae5b8e0d85aaebddd1d6f5e95f15f4fa8dd85ef1bd63"
+    url "https://files.pythonhosted.org/packages/98/b8/42fc8ec65e694ab6c2fd3030a7aa467878c9e248498d493e8dd122f3cc52/typer-0.23.2.tar.gz"
+    sha256 "40fbcaf8f1d7a87a0b4e0f0233134f4d7794ca70fa9d1317ebf131dbafa9b3b0"
   end
 
   resource "typing-extensions" do
@@ -125,15 +155,36 @@ class BookkeepingTool < Formula
     sha256 "0cea48d173cc12fa28ecabc3b837ea3cf6f38c6d1136f85cbaaf598984861466"
   end
 
+  resource "typing-inspection" do
+    url "https://files.pythonhosted.org/packages/55/e3/70399cb7dd41c10ac53367ae42139cf4b1ca5f36bb3dc6c9d33acdb43655/typing_inspection-0.4.2.tar.gz"
+    sha256 "ba561c48a67c5958007083d386c3295464928b01faa735ab8547c5692e87f464"
+  end
+
   resource "tzdata" do
-    url "https://files.pythonhosted.org/packages/0f/dd/84f10e23edd882c6f968c21c2434fe67bd4a528967067515feca9e611e5e/tzdata-2025.2.tar.gz"
+    url "https://files.pythonhosted.org/packages/0f/dd/84f10e23edd882c6f968c21c2434fe67bd4a528967067515feca9e611e5e/tzdata-2025.3.tar.gz"
     sha256 "1a403fada01ff9221ca8044d701868fa132215d84beb92242d9acd2147f667a8"
   end
 
   resource "uvicorn" do
-    url "https://files.pythonhosted.org/packages/17/9b/4a5c339ce2f95ec77872f888cb1d53e0a36f5b2df103d8d41b4f3ff3f67c/uvicorn-0.38.0.tar.gz"
-    sha256 "06018bcbfbf75f3a9a4c2b7d8d5aebde0d2f9819dfd24a65c6d1b0d0de3f5d9d"
+    url "https://files.pythonhosted.org/packages/4f/d1/93a01e3893d64f1a7f6ec4bd477e18b2c19d253ecd8c4f72a1138d43cc5a/uvicorn-0.39.0.tar.gz"
+    sha256 "e6ce955252d903c568143997398be3f7ce2651945dd5de61e3e1f4957c85ee7d"
   end
+
+  resource "uvloop" do
+    url "https://files.pythonhosted.org/packages/06/f0/18d39dbd1971d6d62c4629cc7fa67f74821b0dc1f5a77af43719de7936a7/uvloop-0.22.1.tar.gz"
+    sha256 "6c84bae345b9147082b17371e3dd5d42775bddce91f885499017f4607fdaf39f"
+  end
+
+  resource "watchfiles" do
+    url "https://files.pythonhosted.org/packages/c2/c9/8869df9b2a2d6c59d79220a4db37679e74f807c559ffe5265e08b227a210/watchfiles-1.1.1.tar.gz"
+    sha256 "a173cb5c16c4f40ab19cecf48a534c409f7ea983ab8fed0741304a1c0a31b3f2"
+  end
+
+  resource "websockets" do
+    url "https://files.pythonhosted.org/packages/e8/1e/510086a9edabdf4192f842a444539f8d3b4b99f2448444ca80d4af8a6f79/websockets-15.0.1.tar.gz"
+    sha256 "f4dc6f2c774dd870a7f29b14a15d450c606b7460f43c91db20472f7fbe4b15eb"
+  end
+
   # END PYTHON RESOURCES
 
   def install
