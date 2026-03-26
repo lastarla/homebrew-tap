@@ -3,13 +3,13 @@ class BookkeepingTool < Formula
 
   desc "Local bookkeeping data import and normalization tool"
   homepage "https://github.com/lastarla/bookkeeping-tool"
-  url "https://github.com/lastarla/bookkeeping-tool/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "b00dcc50495c5d0b1b78f37941d5cfe50c44f60c47efe228bc34b99ce02af56f"
+  url "https://github.com/lastarla/bookkeeping-tool/archive/refs/tags/v0.1.2.tar.gz"
+  sha256 "1f5fde4c59bc01b3283db0b78b4cbe30c4c80a3ca9b0e665cd3495b3d4bbc74a"
   license "MIT"
 
   depends_on "python@3.12"
 
-  # BEGIN PYTHON RESOURCES
+# BEGIN PYTHON RESOURCES
   resource "annotated-doc" do
     url "https://files.pythonhosted.org/packages/57/ba/046ceea27344560984e26a590f90bc7f4a75b06701f653222458922b558c/annotated_doc-0.0.4.tar.gz"
     sha256 "fbcda96e87e9c92ad167c2e53839e57503ecfda18804ea28102353485033faa4"
@@ -36,13 +36,13 @@ class BookkeepingTool < Formula
   end
 
   resource "exceptiongroup" do
-    url "https://files.pythonhosted.org/packages/01/9a/c23ad0457c63eeb039b7f92896ba9dbdfffe030e4e9cdc2dcce96c273ea3/exceptiongroup-1.3.1.tar.gz"
-    sha256 "8c9c2c14c62007d4d37e540b57285455409f95f7281f9b66c8dd876f84fcdbdb"
+    url "https://files.pythonhosted.org/packages/50/79/66800aadf48771f6b62f7eb014e352e5d06856655206165d775e675a02c9/exceptiongroup-1.3.1.tar.gz"
+    sha256 "8b412432c6055b0b7d14c310000ae93352ed6754f70fa8f7c34141f91c4e3219"
   end
 
   resource "fastapi" do
-    url "https://files.pythonhosted.org/packages/9f/37/37b07e276f8923c69a5df266bfcb5bac4ba8b55dfe4a126720f8c48681d1/fastapi-0.128.8.tar.gz"
-    sha256 "a7594ca9bcf32d094d7ac270ba55e0311295c4fd61ebcafd0ac37c2f3690db14"
+    url "https://files.pythonhosted.org/packages/01/72/0df5c58c954742f31a7054e2dd1143bae0b408b7f36b59b85f928f9b456c/fastapi-0.128.8.tar.gz"
+    sha256 "3171f9f328c4a218f0a8d2ba8310ac3a55d1ee12c28c949650288aee25966007"
   end
 
   resource "h11" do
@@ -61,8 +61,8 @@ class BookkeepingTool < Formula
   end
 
   resource "markdown-it-py" do
-    url "https://files.pythonhosted.org/packages/94/54/e7d793b573f298e1c9013b8c4dade17d481164aa517d1d7148619c2cedbf/markdown_it_py-3.0.0.tar.gz"
-    sha256 "055216f6dc62fbec4f41b10020f5af534f0f07e6656dace3f0620ecb60e8ed92"
+    url "https://files.pythonhosted.org/packages/38/71/3b932df36c1a044d397a1f92d1cf91ee0a503d91e470cbd670aa66b07ed0/markdown-it-py-3.0.0.tar.gz"
+    sha256 "e3f60a94fa066dc52ec76661e37c851cb232d92f9886b15cb560aaada2df8feb"
   end
 
   resource "mdurl" do
@@ -71,8 +71,8 @@ class BookkeepingTool < Formula
   end
 
   resource "numpy" do
-    url "https://files.pythonhosted.org/packages/47/95/7db5d64a0d98d9492ff5374408b130701a2d53d0da0af4132ae70d0f2ca8/numpy-2.0.2.tar.gz"
-    sha256 "2947e2f546a53e7202331c38b34e5ef95fcce3db6a9c84d8a67c30181266eb1e"
+    url "https://files.pythonhosted.org/packages/a9/75/10dd1f8116a8b796cb2c737b674e02d02e80454bda953fa7e65d8c12b016/numpy-2.0.2.tar.gz"
+    sha256 "883c987dee1880e2a864ab0dc9892292582510604156762362d9326444636e78"
   end
 
   resource "openpyxl" do
@@ -81,8 +81,8 @@ class BookkeepingTool < Formula
   end
 
   resource "pandas" do
-    url "https://files.pythonhosted.org/packages/79/8e/0e90233ac205ad182bd2104d7a16c7a74e99c13e0852eadeddd90d3b7cd7/pandas-2.3.3.tar.gz"
-    sha256 "f8e7c94236fadd2592e53e45845e8f8ff6b5c2785fb592736081686f85dd82c7"
+    url "https://files.pythonhosted.org/packages/33/01/d40b85317f86cf08d853a4f495195c73815fdf205eef3993821720274518/pandas-2.3.3.tar.gz"
+    sha256 "e05e1af93b977f7eafa636d043f9f94c7ee3ac81af99c13508215942e64c993b"
   end
 
   resource "pydantic" do
@@ -101,23 +101,23 @@ class BookkeepingTool < Formula
   end
 
   resource "python-dateutil" do
-    url "https://files.pythonhosted.org/packages/8c/4b/6b6a0a7f2f72f56e68f15ef87c7f804c1c451d826924a9d67df4a2674380/python_dateutil-2.9.0.post0.tar.gz"
-    sha256 "37dd54208da7e0c5c28d5f1c4c2f9b8f2f6d0f4f7ad0ec4f4d4f8f76f4a7d5ce"
+    url "https://files.pythonhosted.org/packages/66/c0/0c8b6ad9f17a802ee498c46e004a0eb49bc148f2fd230864601a86dcf6db/python-dateutil-2.9.0.post0.tar.gz"
+    sha256 "37dd54208da7e1cd875388217d5e00ebd4179249f90fb72437e91a35459a0ad3"
   end
 
   resource "python-dotenv" do
-    url "https://files.pythonhosted.org/packages/44/0c/7e1337f11ffec5e942ecf94f3e6dbe10a52eed0986442a4e7afd4b06c267/python_dotenv-1.2.1.tar.gz"
-    sha256 "8a5eb9f56383f1d7a4c95e5c6f5a8127f18b43524832f570510bcffb4eccf96f"
+    url "https://files.pythonhosted.org/packages/f0/26/19cadc79a718c5edbec86fd4919a6b6d3f681039a2f6d66d14be94e75fb9/python_dotenv-1.2.1.tar.gz"
+    sha256 "42667e897e16ab0d66954af0e60a9caa94f0fd4ecf3aaf6d2d260eec1aa36ad6"
   end
 
   resource "python-multipart" do
-    url "https://files.pythonhosted.org/packages/b4/fb/275137a799169392f1fa7018eacb9b8c8791ef0ffb99a4f3e981d4dfaada/python_multipart-0.0.20.tar.gz"
-    sha256 "8dd0cab64325d54ce6f9b36f4b6dbd258d4e66e59f888f01330d3f2e91fb5480"
+    url "https://files.pythonhosted.org/packages/f3/87/f44d7c9f274c7ee665a29b885ec97089ec5dc034c7f3fafa03da9e39a09e/python_multipart-0.0.20.tar.gz"
+    sha256 "8dd0cab45b8e23064ae09147625994d090fa46f5b0d1e13af944c331a7fa9d13"
   end
 
   resource "pytz" do
-    url "https://files.pythonhosted.org/packages/5f/57/df1c915e18e4dff8fcd3f1178a9d7e18c867fe15083c64484d7fe4e8fbc3/pytz-2026.1.post1.tar.gz"
-    sha256 "360b9e3dbb49a209c21ad61809c7fb453643e048b38924c765813546746e81c7"
+    url "https://files.pythonhosted.org/packages/56/db/b8721d71d945e6a8ac63c0fc900b2067181dbb50805958d4d4661cf7d277/pytz-2026.1.post1.tar.gz"
+    sha256 "3378dde6a0c3d26719182142c56e60c7f9af7e968076f31aae569d72a0358ee1"
   end
 
   resource "pyyaml" do
@@ -141,13 +141,13 @@ class BookkeepingTool < Formula
   end
 
   resource "starlette" do
-    url "https://files.pythonhosted.org/packages/7e/9b/6ef84f0f911e15a00eb20f70ecbe8a7b205d5055c8ec0c88e0d210c442a3/starlette-0.49.3.tar.gz"
-    sha256 "f35882733fb81bdd3765f74d84f1f2cae4890c4c1d15873bcec184b975677ca3"
+    url "https://files.pythonhosted.org/packages/de/1a/608df0b10b53b0beb96a37854ee05864d182ddd4b1156a22f1ad3860425a/starlette-0.49.3.tar.gz"
+    sha256 "1c14546f299b5901a1ea0e34410575bc33bbd741377a10484a54445588d00284"
   end
 
   resource "typer" do
-    url "https://files.pythonhosted.org/packages/98/b8/42fc8ec65e694ab6c2fd3030a7aa467878c9e248498d493e8dd122f3cc52/typer-0.23.2.tar.gz"
-    sha256 "40fbcaf8f1d7a87a0b4e0f0233134f4d7794ca70fa9d1317ebf131dbafa9b3b0"
+    url "https://files.pythonhosted.org/packages/d3/ae/93d16574e66dfe4c2284ffdaca4b0320ade32858cb2cc586c8dd79f127c5/typer-0.23.2.tar.gz"
+    sha256 "a99706a08e54f1aef8bb6a8611503808188a4092808e86addff1828a208af0de"
   end
 
   resource "typing-extensions" do
@@ -161,13 +161,13 @@ class BookkeepingTool < Formula
   end
 
   resource "tzdata" do
-    url "https://files.pythonhosted.org/packages/0f/dd/84f10e23edd882c6f968c21c2434fe67bd4a528967067515feca9e611e5e/tzdata-2025.3.tar.gz"
-    sha256 "1a403fada01ff9221ca8044d701868fa132215d84beb92242d9acd2147f667a8"
+    url "https://files.pythonhosted.org/packages/5e/a7/c202b344c5ca7daf398f3b8a477eeb205cf3b6f32e7ec3a6bac0629ca975/tzdata-2025.3.tar.gz"
+    sha256 "de39c2ca5dc7b0344f2eba86f49d614019d29f060fc4ebc8a417896a620b56a7"
   end
 
   resource "uvicorn" do
-    url "https://files.pythonhosted.org/packages/4f/d1/93a01e3893d64f1a7f6ec4bd477e18b2c19d253ecd8c4f72a1138d43cc5a/uvicorn-0.39.0.tar.gz"
-    sha256 "e6ce955252d903c568143997398be3f7ce2651945dd5de61e3e1f4957c85ee7d"
+    url "https://files.pythonhosted.org/packages/ae/4f/f9fdac7cf6dd79790eb165639b5c452ceeabc7bbabbba4569155470a287d/uvicorn-0.39.0.tar.gz"
+    sha256 "610512b19baa93423d2892d7823741f6d27717b642c8964000d7194dded19302"
   end
 
   resource "uvloop" do
@@ -181,11 +181,11 @@ class BookkeepingTool < Formula
   end
 
   resource "websockets" do
-    url "https://files.pythonhosted.org/packages/e8/1e/510086a9edabdf4192f842a444539f8d3b4b99f2448444ca80d4af8a6f79/websockets-15.0.1.tar.gz"
-    sha256 "f4dc6f2c774dd870a7f29b14a15d450c606b7460f43c91db20472f7fbe4b15eb"
+    url "https://files.pythonhosted.org/packages/21/e6/26d09fab466b7ca9c7737474c52be4f76a40301b08362eb2dbc19dcc16c1/websockets-15.0.1.tar.gz"
+    sha256 "82544de02076bafba038ce055ee6412d68da13ab47f0c60cab827346de828dee"
   end
 
-  # END PYTHON RESOURCES
+# END PYTHON RESOURCES
 
   def install
     virtualenv_install_with_resources
