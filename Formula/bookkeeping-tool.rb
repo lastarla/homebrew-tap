@@ -5,8 +5,8 @@ class BookkeepingTool < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/lastarla/bookkeeping-tool/releases/download/v0.1.3/bookkeeping-tool-darwin-arm64-v0.1.3.tar.gz"
-      sha256 "4a83ceb329b67f839fcdd4befff74f6874a046e00d3131cf841f61c658a8f885"
+      url "https://github.com/lastarla/bookkeeping-tool/releases/download/v0.1.4/bookkeeping-tool-darwin-arm64-v0.1.4.tar.gz"
+      sha256 "7e0abce358f496a0f7da69a123d8cf79031537ddbb46e1b9ac94dceee6910c61"
     end
 
     on_intel do
